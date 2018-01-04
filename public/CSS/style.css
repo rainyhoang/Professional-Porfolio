@@ -1,0 +1,55 @@
+.lead 
+{
+	align-items: center;
+}
+.jumbotron
+{
+	text-align: center;
+}
+
+.h1
+{
+	text-align: center;
+	align-items: center;
+}
+#profile
+{
+	width: 270px;
+	height: 270px;
+	position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#javascript
+{
+	width: 100px;
+	height: 100px;
+}
+#react
+{
+	width: 100px;
+	height: 100px;
+}
+
+#html
+{
+	width: 100px;
+	height: 100px;
+}
+#jquery
+{
+	width: 100px;
+	height: 100px;
+}
+
+#github
+{
+	width: 100px;
+	height: 100px;
+}
+.card-header
+{
+	font-weight: bold;
+	text-align:
+}
