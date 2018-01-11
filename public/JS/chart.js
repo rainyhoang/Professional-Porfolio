@@ -7,13 +7,13 @@ var myChart = new Chart(ctx, {
         labels: ["Javascript", "jQuery", "React", "HTML", "CSS"],
         datasets: [{
             label: 'Level of skill',
-            data: [70, 75, 66, 85, 70],
+            data: [65, 75, 55, 85, 70],
             backgroundColor: [
-                'rgba(255, 0, 0, 1)',
-                'rgba(255, 0, 0, 1)',
-                'rgba(255, 0, 0, 1)',
-                'rgba(255, 0, 0, 1)',
-                'rgba(255, 0, 0, 1)',
+                'rgba(0, 128, 0, 1)',
+                'rgba(0, 128, 0, 1)',
+                'rgba(0, 128, 0, 1)',
+                'rgba(0, 128, 0, 1)',
+                'rgba(0, 128, 0, 1)',
             ],
             
         }]

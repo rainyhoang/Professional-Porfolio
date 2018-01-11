@@ -72,7 +72,10 @@
 
 h1
 {
-	font-family: Arial;
+	font-family: roboto;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
 }
 .img-rounded
 {
@@ -84,7 +87,44 @@ h1
 	background-color: silver;
 	font-weight: bold;
 }
-.direction
+h5
 {
-	
+	align-items: center;
+	text-align: center;
+	font-style: italic;
+	color: darkblue;
+}
 
+.img-rounded1
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 60px;
+
+}
+#github
+{
+	width: 60px;
+	height: 60px;
+	margin-left: 60px;
+}
+#twitter
+{
+	width: 65px;
+	height: 65px;
+	margin-left: 60px;
+}
+.card-header
+{
+	background-color: #2F4F4F;
+	color: white;
+}
+.card-body
+{
+	background-color: #D2B48C;
+	color: black;
+}
+.jumbotron
+{
+	height: 400px;
+}
