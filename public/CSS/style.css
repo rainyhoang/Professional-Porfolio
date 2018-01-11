@@ -51,5 +51,40 @@
 .card-header
 {
 	font-weight: bold;
-	text-align:
 }
+.ui-progressbar 
+{
+    position: relative;
+}
+.progress-label 
+{
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0
+}
+
+.card
+{
+	border: none;
+}
+
+h1
+{
+	font-family: Arial;
+}
+.img-rounded
+{
+	width: 300px;
+	height: 300px;
+}
+.nav
+{
+	background-color: silver;
+	font-weight: bold;
+}
+.direction
+{
+	
+

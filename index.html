@@ -5,32 +5,28 @@
 	<!-- Bootstrap CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<!-- Jquery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<!-- link CSS -->
 	<link rel="stylesheet" type="text/css" href="public/CSS/style.css">
-	<!-- Javascript -->
-	<link rel="stylesheet" type="text/css" href="public/CSS/javascript.css">
 	<!-- view in mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Jquery UI Progressive bar -->
+	  	
+	<!-- <script type="text/javascript" src="public/JS/chart.js"></script> -->
 
 
 </head>
 <body>
 	<!-- Nav bar-->
-	<ul class="nav justify-content-center">
-  		<li class="nav-item">
-    		<a class="nav-link active" href="#">About</a>
-  		</li>
-  		<li class="nav-item">
-    		<a class="nav-link" href="#">Techinical Project</a>
-  		</li>
-  		<li class="nav-item">
-   		 	<a class="nav-link" href="#">Marketing Experience</a>
-  		</li>
+	<nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link" href="#">About</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link disabled" href="#">Disabled</a>
+</nav>
   		
-	</ul>
-	
-			
+    		
 	<div class="container">
 		<!-- Name -->
 		<div class="row">
@@ -42,7 +38,7 @@
 		
 		<div class="row">
 			<div class="col-md-3">
-						<img id ="profile" src="public/img/rain.jpg" class="rounded mx-auto d-block" alt="profile">
+					<img id ="profile" src="public/img/rain.jpg" class="rounded mx-auto d-block" alt="profile">
 			</div>
 			<!-- Col for photo -->
 			<div class ="col-md-6">
@@ -121,9 +117,106 @@
 				</div>
 			</div>
 		</div>
+		<hr>
+		
+		<div class ="row">
+				<h1>Working Skill</h1> 
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-md-6">
+				<h5> Programing Skill</h5>
+				<canvas id="myChart" width="350" height="350"></canvas>
 
+			</div>
+			<!-- Marketing Skill -->
+			<div class="col-md-6">
+				<h5>Marketing and Working Skill</h5>
+				<canvas id="myChart2" width="350" height="350"></canvas>
+
+			</div>
+
+		</div>
+		<br><br>
+		<hr>
+		<br>
+		<div class ="row">
+				<h1>Enter my Glories</h1> 
+		</div>
+		<br><br><br>
+
+		<div class ="row">
+			<div class = "col-md-12"><h5>Techinical Project</h5></div>
+		</div>
+		<br><br>
+		<!-- <div class = "col-md-4"><h5>Programing Project</h5></div> -->
+		<div class ="row">
+			<div class = "col-md-4">
+				<a href="https://yjeong19.github.io/birthday_stalker/">
+				<img src="public/img/calendar.png" class="img-rounded" alt="calendar"></a>
+			</div>
+
+			<div class = "col-md-4">
+				<img src="public/img/watch.png" class="img-rounded" alt="watch">
+			</div>
+
+			<div class = "col-md-4">
+				<img src="public/img/burger.png" class="img-rounded" alt="watch">
+			</div>
+
+
+
+		</div>
+		<br><br>
+		<div class ="row">
+			<div class = "col-md-12"><h5>Marketing Project</h5></div>
+			<!-- <div class = "col-md-4"><h5>Programing Project</h5></div> -->
+		</div>
+		<br><br>
+
+
+		<div class ="row">
+			<!-- Marketing Project -->
+			<div class = "col-md-4">
+				<iframe width="340" height="240" src="https://www.youtube.com/embed/y0gTW_X5iOw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+			
+			<div class = "col-md-4">
+				<iframe width="340" height="240" src="https://www.youtube.com/embed/Tm2HjHxwQdQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div class = "col-md-4">
+				<iframe width="340" height="240" src="https://www.youtube.com/embed/gxIzxWtj62c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+		<!-- Row of text -->
+		<div class ="row">
+			<div class = "col-md-4"><p id = "videoText">Tiger Remix</p></div>
+			<div class = "col-md-4"><p id = "videoText">Tiger Wall</p></div>
+			<div class = "col-md-4"><p id = "videoText">Tiger Translate</p></div>
+		</div>
+
+		<div class = "row">
+			<div class = "col-md-4">
+				<iframe width="340" height="240" src="https://www.youtube.com/embed/DQsAGQLNcxY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div class = "col-md-4">
+				<iframe width="340" height="240" src="https://www.youtube.com/embed/ZxrYiHLUkNY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+			
+			<div class = "col-md-4">
+				<iframe width="340" height="240" src="https://www.youtube.com/embed/maHHa4LD_r0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class ="row">
+			<div class = "col-md-4"><p id = "videoText">Tiger BlueXmas</p></div>
+			<div class = "col-md-4"><p id = "videoText">Tiger Street Football</p></div>
+			<div class = "col-md-4"><p id = "videoText">Tiger Excitement Journey</p></div>
+		</div>
 
 	</div> <!-- container -->			
 
 </body>
+	<script type="text/javascript" src="public/JS/chart.js"></script>
 </html>
