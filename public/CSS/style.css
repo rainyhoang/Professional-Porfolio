@@ -2,6 +2,7 @@
 {
 	align-items: center;
 	font-style: italic;
+	font-size: 26px;
 }
 
 .jumbotron
@@ -99,27 +100,31 @@ h5
 	align-items: center;
 	text-align: center;
 	font-style: italic;
-	color: darkblue;
+	color: #FC4C00;
+	font-family: 'Kavoon';
+	font-size: 35px;
+	text-decoration: underline;
+	
 }
 
 .img-rounded1
 {
 	width: 50px;
 	height: 50px;
-	margin-left: 60px;
+	margin-left: 20px;
 
 }
 #github
 {
 	width: 60px;
 	height: 60px;
-	margin-left: 60px;
+	/*margin-left: 20px;*/
 }
 #twitter
 {
 	width: 65px;
 	height: 65px;
-	margin-left: 60px;
+	margin-left: 20px;
 }
 .card-header
 {
@@ -134,7 +139,7 @@ h5
 }
 .jumbotron
 {
-	height: 400px;
+	height: 700px;
 	background-image: url("http://www.xigentsolutions.com/content/uploads/sites/4/2017/11/TopTenStrTechTrends2017_Header_Final.jpg");
 }
 #Working-Skill
@@ -150,14 +155,17 @@ h5
 {
 	text-align: center;
 	font-style: italic;
-	background-color: silver;
+	background-color: #000A50;
 	width: 340px;
 	border-radius: 10px;
+	color: white;
 }
 
 .nav-item
 {
 	color: white;
+	padding: 40px;
+	font-size: 25px;
 }
 .headline
 {
@@ -177,7 +185,7 @@ h5
 {
 	border-radius: 15px;
 	height: 400px;
-	background-color: silver;
+	
 }
 
 hr {
@@ -189,7 +197,7 @@ height: 0.5px;
 {
 	font-family: 'Bungee Inline';
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 80px;
 	color: darkgrey;
 }
 
@@ -198,4 +206,10 @@ height: 0.5px;
 	text-align: center;
 	background-color: darkgrey;
 	align-items: center;
+}
+.btn
+{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
 }
