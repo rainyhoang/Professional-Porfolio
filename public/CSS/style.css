@@ -1,7 +1,9 @@
 .lead 
 {
 	align-items: center;
+	font-style: italic;
 }
+
 .jumbotron
 {
 	text-align: center;
@@ -72,20 +74,25 @@
 
 h1
 {
-	font-family: roboto;
+	font-family: 'Bungee Inline';
 	font-weight: bold;
 	text-align: center;
 	align-items: center;
+	color: #761111;
+
 }
 .img-rounded
 {
 	width: 300px;
 	height: 300px;
+	margin-top: 50px;
+	margin-left: 20px;
 }
 .nav
 {
-	background-color: silver;
+	background-color: grey;
 	font-weight: bold;
+	position: sticky;
 }
 h5
 {
@@ -118,6 +125,7 @@ h5
 {
 	background-color: #2F4F4F;
 	color: white;
+	border-radius: 20px;
 }
 .card-body
 {
@@ -127,4 +135,67 @@ h5
 .jumbotron
 {
 	height: 400px;
+	background-image: url("http://www.xigentsolutions.com/content/uploads/sites/4/2017/11/TopTenStrTechTrends2017_Header_Final.jpg");
+}
+#Working-Skill
+{
+	font-size: 40px;
+	font-family: 'Bungee Inline';
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+	color: #761111
+}
+.caption
+{
+	text-align: center;
+	font-style: italic;
+	background-color: silver;
+	width: 340px;
+	border-radius: 10px;
+}
+
+.nav-item
+{
+	color: white;
+}
+.headline
+{
+	text-align: center;
+	align-items: center;
+}
+#About
+{
+	font-size: 40px;
+	font-family: 'Bungee Inline';
+	/*font-weight: bold;*/
+	text-align: center;
+	align-items: center;
+	color: #761111;
+}
+#background-tech
+{
+	border-radius: 15px;
+	height: 400px;
+	background-color: silver;
+}
+
+hr {
+color: #f00;
+background-color: #f00;
+height: 0.5px;
+}
+.display-4
+{
+	font-family: 'Bungee Inline';
+	font-weight: bold;
+	font-size: 60px;
+	color: darkgrey;
+}
+
+#footer
+{
+	text-align: center;
+	background-color: darkgrey;
+	align-items: center;
 }

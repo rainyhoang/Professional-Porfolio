@@ -15,7 +15,9 @@
 	<!-- Jquery UI Progressive bar -->
 	  	
 	<!-- <script type="text/javascript" src="public/JS/chart.js"></script> -->
-
+	<!-- google Font -->
+	<link href='https://fonts.googleapis.com/css?family=Bungee Inline' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'>
 
 </head>
 <body>
@@ -45,35 +47,28 @@
 				<img src="public/img/twitter.png" id= "twitter" alt="calendar"></a>
 				<br><br>
 			<p class="lead">Email: leonhoang@outlook.com | Contact: 571-395-0287</p>
-			
-			<button type="button" class="btn btn-primary">Send me Email</button>
+
+			<a href="mailto:leonhoang@outlook.com?subject=Job Opportunity&body=We have an offer for you">
+			<button type="button" class="btn btn-primary" id="Email">Send me Email</button></a>
 		  </div>
 		</div>
 	
 
 
-
-
-
-  		
-    <br>
 	<div class="container">
-		<!-- Name -->
-		<div class="row">
-			<div class="col-5-md">
-				<p class="h1">Le Vu Hoang</p>
+		<!-- Objective | Photo | technical skill-->
+		<div class ="row">
+			<div class ="col-md-12 headline">
+				<hr>
+				<h1 id = "About">About Me</h1>
+				<hr>
 			</div>
 		</div>
-		<br>
-		<!-- Objective | Photo | technical skill-->
-		
+
 		<div class="row">
-			<div class="col-md-3">
-					<img id ="profile" src="public/img/rain.jpg" class="rounded mx-auto d-block" alt="profile">
-			</div>
+			<div class="col-md-3"><img id ="profile" src="public/img/rain.jpg" class="rounded mx-auto d-block" alt="profile"></div>
 			<!-- Col for photo -->
 			<div class ="col-md-6">
-				
 				<div class="card text-white bg-success mb-3" style="max-width: 35rem;">
 				  <div class="card-header">Objective</div>
 				  <div class="card-body">
@@ -86,7 +81,7 @@
 			<!-- Col for Technical Skill -->
 			<div class ="col-md-3">
 				<div class="card bg-light mb-3" style="max-width: 25rem;">
-				  <div class="card-header">Techinical Skill</div>
+				  <div class="card-header" id="technical">Techinical Skill</div>
 				  <div class="card-body">
 				  	<div class="float-left">
 				  	<img id ="javascript" src="public/img/javascript.png" class="rounded mx-auto d-block" alt="Javascript">
@@ -157,9 +152,11 @@
 		<hr>
 		
 		<div class ="row">
-			<div class ="col-12-md"
-				<h1 id = "Working-Skill">Working Skill</h1> 
+			<div class ="col-md-12 headline"
+				<h1 id = "Working-Skill"> Working Skill</h1> 
+				<hr>
 			</div>
+
 		</div>
 		<br><br>
 		<div class="row">
@@ -178,20 +175,22 @@
 		</div>
 		<br><br>
 		<hr>
-		<br>
+		
 		<div class ="row">
-			<div class="col-12-md">
+			<div class="col-md-12">
 				<h1>Enter my Glories</h1> 
+				<hr>
 			</div>
+
 		</div>
 		<br><br><br>
 
 		<div class ="row">
 					<div class = "col-md-12"><h5>Techinical Project</h5></div>
-				</div>
+		</div>
 				<br><br>
 				<!-- <div class = "col-md-4"><h5>Programing Project</h5></div> -->
-				<div class ="row">
+				<div class ="row" id ="background-tech">
 					<div class = "col-md-4">
 						<a href="https://yjeong19.github.io/birthday_stalker/">
 						<img src="public/img/calendar.png" class="img-rounded" alt="calendar"></a>
@@ -206,9 +205,7 @@
 						<a href ="https://murmuring-plains-94693.herokuapp.com/burgers">
 						<img src="public/img/burger.png" class="img-rounded" alt="watch"></a>
 					</div>
-	
-
-		</div>
+				</div>
 		<br><br>
 		<div class ="row">
 			<div class = "col-md-12" id="Markerting-Project"><h5>Marketing Project</h5></div>
@@ -221,44 +218,56 @@
 			<!-- Marketing Project -->
 			<div class = "col-md-4">
 				<iframe width="340" height="240" src="https://www.youtube.com/embed/y0gTW_X5iOw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="caption">Tiger Remix</p>
 			</div>
 			
 			<div class = "col-md-4">
 				<iframe width="340" height="240" src="https://www.youtube.com/embed/Tm2HjHxwQdQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="caption">Tiger Wall</p>
 			</div>
 
 			<div class = "col-md-4">
 				<iframe width="340" height="240" src="https://www.youtube.com/embed/gxIzxWtj62c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="caption">Tiger Translate</p>
 			</div>
 		</div>
 		<!-- Row of text -->
-		<div class ="row">
+		<!-- <div class ="row">
 			<div class = "col-md-4"><p id = "videoText">Tiger Remix</p></div>
 			<div class = "col-md-4"><p id = "videoText">Tiger Wall</p></div>
 			<div class = "col-md-4"><p id = "videoText">Tiger Translate</p></div>
-		</div>
+		</div> -->
 
 		<div class = "row">
 			<div class = "col-md-4">
 				<iframe width="340" height="240" src="https://www.youtube.com/embed/DQsAGQLNcxY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="caption">Tiger BlueXmas</p>
+
 			</div>
 
 			<div class = "col-md-4">
 				<iframe width="340" height="240" src="https://www.youtube.com/embed/ZxrYiHLUkNY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="caption">Tiger Street Football</p>
 			</div>
 			
 			<div class = "col-md-4">
 				<iframe width="340" height="240" src="https://www.youtube.com/embed/maHHa4LD_r0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="caption">Tiger Execitement Journey</p>
 			</div>
 		</div>
-		<div class ="row">
+		<!-- <div class ="row">
 			<div class = "col-md-4"><p id = "videoText">Tiger BlueXmas</p></div>
 			<div class = "col-md-4"><p id = "videoText">Tiger Street Football</p></div>
 			<div class = "col-md-4"><p id = "videoText">Tiger Excitement Journey</p></div>
-		</div>
+		</div> -->
 
 	</div> <!-- container -->			
 
 </body>
 	<script type="text/javascript" src="public/JS/chart.js"></script>
+
+
+	<footer>
+		<p id="footer">Copyright 2018 - Le Vu Hoang</p>
+	</footer>
 </html>
