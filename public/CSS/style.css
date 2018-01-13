@@ -124,8 +124,17 @@ h5
 {
 	width: 65px;
 	height: 65px;
-	margin-left: 20px;
+	margin-left: 15px;
 }
+
+#download
+{
+	width: 55px;
+	height: 55px;
+	margin-left: 10px;
+}
+
+
 .card-header
 {
 	background-color: #2F4F4F;
